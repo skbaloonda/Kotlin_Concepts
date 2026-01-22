@@ -19,9 +19,4 @@ fun main (){
     val length = stringLength("Hello, Kotlin!")
     println("Length of the string is: $length")
 
-    // Using lambda function with higher-order function
-    val numbers = listOf(1, 2, 3, 4, 5)
-    val doubledNumbers = numbers.map { it * 2 } // lambda to double each number
-    println("Doubled Numbers: $doubledNumbers")
-
 }
